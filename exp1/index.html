@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Experiment 1 - WebTech</title>
+
+  <!-- External JS Libraries -->
+  <script src="https://sevnjs.github.io/cdn/latest/sevn.min.js"></script>
+  <script src="https://sevnjs.github.io/WebHelper/WebHelper.js"></script>
+
+  <!-- MathJax -->
+  <script>
+    MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']],
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <!-- Code Highlighter -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+
+</head>
+
+<body style="background-color:#222;color:#ccc;font-size:0.9rem;">
+
+  <h1>Experiment 1 (exp1 Folder)</h1>
+  <p>Running your first WebTech experiment with renamed Helper.js</p>
+
+  <pre><code class="html">
+  &lt;h1&gt;Hello WebTech Experiment 1&lt;/h1&gt;
+  </code></pre>
+
+  <script>
+    hljs.highlightAll();
+  </script>
+
+  <!-- Local JS Files -->
+  <script src="sevn.min.js"></script>
+  <script src="Helper.js"></script>     <!-- UPDATED NAME -->
+  <script src="slidegen.js"></script>
+
+</body>
+
+</html>
