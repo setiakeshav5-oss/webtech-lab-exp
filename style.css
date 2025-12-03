@@ -1,0 +1,30 @@
+body {
+    padding: 30px;
+    font-family: Arial;
+}
+
+#box {
+    padding: 20px;
+    background: #ffe5e5;
+    margin-top: 10px;
+}
+
+.addedClass {
+    background: #ffb3b3;
+    border: 2px solid red;
+}
+
+#pos-box {
+    width: 120px;
+    height: 50px;
+    background: #d9f7be;
+    margin-top: 20px;
+    position: relative;
+}
+
+#anim-box {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    background: #a4d7ff;
+}
